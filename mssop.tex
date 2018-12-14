@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{url}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\newcommand{\Hrule}{\rule{\linewidth}{0.3mm}}
+
+\makeatletter% since there's an at-sign (@) in the command name
+\renewcommand{\@maketitle}{%
+  \parindent=0pt% don't indent paragraphs in the title block
+  \centering
+  {\Large \bfseries\textsc{\@title}}
+  \HRule\par%
+  \textit{\@author \hfill \@date}
+  \par
+}
+\makeatother% resets the meaning of the at-sign (@)
+
+\title{Statement of Purpose}
+\author{Vinod Kumar Mechiri}
+\date{M.S Applicant}
+
+\begin{document}
+  \maketitle% prints the title block
+\
+
+I am Vinod Kumar Mechiri, a software engineer by profession, has been part of Quest Global in Aerospace and Defense for about two years. I am interested in puzzles and problem-solving since childhood. This is also evident from my academic performance where I always excelled in mathematical subjects. During undergraduation, my final year project is in Computer Security, where I experienced hands-on in Cryptosystems. After two years, luckily, I got a job in Avionics Defense system, where my curiosity to learn more about the Security is increased by observing the most complex and integrated systems can be a potential target for a large-scale cyber-attack or attack on one or some of its elements. Moreover, I get an immense sense of satisfaction by fixing security issues that could affect the safety of humankind.
+\\
+
+The combined interest of problem-solving and computers lead me to choose Computer Science as the major for my undergraduate program. I started computer programming in the second semester of the undergraduate program. I liked the challenge of expressing a solution in an algorithm and soon was addicted to programming. Although I was regularly writing small programs, it was my first academic project "Breakout clone" that helped me realize the importance of Design, Testing, and User Interaction. By the end of this project, I was adept at programming and debugging.
+Furthermore, I participated and won in many programming contests, participated in workshops and attended international security conferences. I implemented a Key Distribution Center (KDC) as my final year project. It was this project that triggered my interest in Computer Security. I learned the importance of secure design, implementation and, access control. By the end of the undergraduate program, I wanted to learn more about computer security and decided to join a graduate program. However, because of my financial situation, I had to work to repay the loans of my family.\\
+
+During my stint at the Quest Global company, I worked on an Avionics project, "Next Generation Flight Management Systems." I was involved in both developing and testing of the system. Safety and Reliability were the most important features of this system. After a year of working
+ on this system, I became an expert at writing and reviewing secure code and was promoted to be the main Technical Reviewer of the team. My work had garnered various awards from my company. In addition to improving my financial situation, this experience strengthened my desire to learn more about computer security. I spent most of my spare time reading various academic papers and articles related to Firmware analysis and Vulnerability detection. I learned about various challenges in firmware analysis such as firmware extraction, entry-point identification and interrupt modeling. Although several researchers have made amazing progress~\cite{zaddach2014avatar, shoshitaishvili2015firmalice, costin2014large}, I still believe that there are some immediate problems that could be solved.
+
+In spite of the recent amazing progress done on Vulnerability detection~\cite{machiry2017dr, redini2017bootstomp}, it is sad to see the increasing trend of vulnerabilities in modern platforms like Android. I believe one of the main reason for this is the false positives of the existing work rendering them unusable. Most of the systems work in batch mode; I think what we need is an interactive system~\cite{Mangal:2015:UAP:2786805.2786851}, where a user or analyst can \emph{interact} with the analysis engine to reduce false positives.\\
+
+I believe that a Masters at the University of Minnesota, Twin Cities is an ideal next step for me to get an academic understanding and gain research experience not only on the topics above but all aspects of computer security. Furthermore, this also provides an opportunity to interact and work with brilliant professors.
+
+\medskip
+
+\bibliography{refs}{}
+\bibliographystyle{plain}
+
+\end{document}
