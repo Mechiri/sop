@@ -1,4 +1,4 @@
-TARGETS = mssoparizona mssopbu mssopgmu mssopminessota mssopncsu mssopnortheas mssop mssopucirvine mssopucolorado mssopusc mssoputa mssoppenn mssopsyra mssopohio
+TARGETS = mssoparizona mssopbu mssopgmu mssopminessota mssopncsu mssopnortheas mssop mssopucirvine mssopucolorado mssopusc mssoputa mssoppenn mssopsyra mssopohio mssoputd
 
 
 LATEX   = pdflatex
